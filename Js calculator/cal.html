@@ -1,0 +1,17 @@
+<script>
+    const operator = prompt("Enter Operator(+, -, *, /")
+
+const x = parseFloat(prompt("enter the first number"))
+const y = parseFloat(prompt("enter the second number"))
+
+if (operator == "+"){
+    result = x + y;
+}else if(operator == "-"){
+    result = x - y;
+}else if (operator == "*"){
+    result = x * y;
+}else if (operator == "/"){
+    result = x / y;
+}
+document.write(x + operator + y + "=" + result);
+</script>
